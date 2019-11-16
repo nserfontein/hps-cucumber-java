@@ -84,3 +84,7 @@
   parameters:
   - name: __datatable
   body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a notification about descaling is displayed
+  uid: 4496ead8-3351-4ee6-9a51-df059adb6ef7
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e

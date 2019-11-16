@@ -141,4 +141,9 @@ public class Actionwords {
 
         assertEquals(settings, sut.getSettings());
     }
+
+    public void aNotificationAboutDescalingIsDisplayed() {
+        assertTrue(sut.isDescalingNeeded());
+    }
+
 }
