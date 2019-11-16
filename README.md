@@ -1,6 +1,6 @@
 # hps-cucumber-java
 
-[![Build Status](https://travis-ci.org/hiptest/hps-cucumber-java.svg?branch=master)](https://travis-ci.org/hiptest/hps-cucumber-java)
+[![Build Status](https://travis-ci.org/nserfontein/hps-cucumber-java.svg?branch=master)](https://travis-ci.org/nserfontein/hps-cucumber-java)
 
 Hiptest publisher samples with Cucumber/Java
 
