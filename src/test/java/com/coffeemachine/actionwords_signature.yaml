@@ -1,90 +1,86 @@
 ---
 - name: I start the coffee machine using language "lang"
-  uid: 52952972-244b-4224-901b-8608a3f27621
+  uid: 7d6dcb3e-390d-40b4-82d0-e97363b5f75e
   parameters:
   - name: lang
   body_hash: 0dca366e0eefbfe2afdda10ba2bf6dc6
 - name: I shutdown the coffee machine
-  uid: d4f55f47-9a96-45a7-adb4-4e536201662e
+  uid: b9db720e-3189-465b-b12f-1e8b58c052d6
   parameters: []
   body_hash: 484adb5b2a4664a4d468c66e2a8178b8
 - name: message "message" should be displayed
-  uid: b9e8afe4-3c34-4a2b-9b44-13ab92dbafdf
+  uid: a671d9fc-a109-4f09-ab38-1f3e16a52184
   parameters:
   - name: message
   body_hash: 85dbb82cd108b186b62beea6630186da
 - name: coffee should be served
-  uid: b5ee773e-3dfe-4a03-9491-cd8f078254e7
+  uid: eb5b8c2c-3e86-43a9-a8a8-d4d688517ae4
   parameters: []
   body_hash: 7c9252da6fce7d9d92ec33f9047bb332
 - name: coffee should not be served
-  uid: d4ae5875-710c-40b9-aada-21aeda9171b8
+  uid: 908a3b2e-b1b7-4e6b-993e-059635c6a18d
   parameters: []
   body_hash: 7108a9c6cf93158258425829460bae78
 - name: I take a coffee
-  uid: 0bcd4481-808f-4c8f-8818-2304072788fa
+  uid: cdcbb7ea-b268-4cbb-b715-e8fc5465b309
   parameters: []
   body_hash: d3b731018e0c6e030732455fa55578ab
 - name: I empty the coffee grounds
-  uid: 21e6acc8-a012-4155-8a76-cd491f796d50
+  uid: 0bf8d3b7-bf4f-499e-afcb-36fadd035e53
   parameters: []
   body_hash: 50085c7e1da853f7a1f76dbaea00a33d
 - name: I fill the beans tank
-  uid: 3f76b4ee-6dcc-41e1-bff1-ba14930ce4ae
+  uid: afc4a9c8-faef-43f9-878b-4a3abf24471d
   parameters: []
   body_hash: 4919bd48d489fc94342e8ca494169072
 - name: I fill the water tank
-  uid: f5255fdf-2577-4078-9e9a-90b9f0440c81
+  uid: eaa8e235-24d0-4bf6-b6ba-fd5a566568e5
   parameters: []
   body_hash: 6c8455b47f7300c09bd7ff55ba77851e
 - name: I take "coffee_number" coffees
-  uid: 956a9d45-3699-4c82-aa84-b4bfe04da7aa
+  uid: e3c0c7ec-c95d-461f-8260-8ee889b48bad
   parameters:
   - name: coffee_number
   body_hash: d41d8cd98f00b204e9800998ecf8427e
 - name: the coffee machine is started
-  uid: 72934eb9-ebdb-4701-84a4-5159f85c09f3
+  uid: ad2174c4-faeb-43dd-a58f-7d0ffa928d71
   parameters: []
   body_hash: 94bc62dc775c5d18b863b3acc45e58c1
 - name: I handle everything except the water tank
-  uid: 4393c99f-80c2-4675-b11a-335b84db1e5d
+  uid: d7e93ae6-0536-4378-a3bb-b57220d0b184
   parameters: []
   body_hash: 190d3ba75e025e591ff7f99993549993
 - name: I handle water tank
-  uid: 98fb7f8b-47fe-45f3-8f00-483617540fad
+  uid: ac17725f-2f42-47b3-b786-5421faff2665
   parameters: []
   body_hash: d41d8cd98f00b204e9800998ecf8427e
 - name: I handle beans
-  uid: 7d782e4f-ace8-4bdf-9d45-39332ede3b36
+  uid: 5887d83a-c0a3-4645-b9ca-d2ae7d2f27ef
   parameters: []
   body_hash: d41d8cd98f00b204e9800998ecf8427e
 - name: I handle coffee grounds
-  uid: 514d1cae-5098-4809-a651-6014ef434b5c
+  uid: c2cc0423-d0cb-4bc6-9a0a-30a80cd24b2f
   parameters: []
   body_hash: d41d8cd98f00b204e9800998ecf8427e
 - name: I handle everything except the beans
-  uid: ac167028-ffe3-4e5a-8912-5a273a245f89
+  uid: 6079b2b2-d167-4d57-bf00-a51bdbea209a
   parameters: []
   body_hash: 7362fd1bbebadfce305cbc940457482a
 - name: I handle everything except the grounds
-  uid: d4fa9895-0eca-4edf-a26e-b79e6dbc0c2f
+  uid: 5a820a3c-9d98-472e-bf99-2d9a1596c056
   parameters: []
   body_hash: 5a1a5de8852fb0d8371e89927f48ae3c
 - name: 'displayed message is:'
-  uid: 85c209ea-7d22-48db-904d-8f7ecf9d1bb5
+  uid: 8c354492-b0de-4a53-ad22-5f201d061605
   parameters:
   - name: __free_text
   body_hash: bba1f64e3a77edbb2889e4b336fd6787
 - name: I switch to settings mode
-  uid: 9e1329f0-0eb2-4316-aaf0-678274c75a94
+  uid: fcb4bc36-e8e3-4d02-9acd-a3e923cc58a3
   parameters: []
   body_hash: d41d8cd98f00b204e9800998ecf8427e
 - name: 'settings should be:'
-  uid: d7db1936-b03f-4503-9c8a-53c9bb99a656
+  uid: aabbe8d3-695e-420c-b5c8-450db1b166e5
   parameters:
   - name: __datatable
-  body_hash: d41d8cd98f00b204e9800998ecf8427e
-- name: a notification about descaling is displayed
-  uid: 4496ead8-3351-4ee6-9a51-df059adb6ef7
-  parameters: []
   body_hash: d41d8cd98f00b204e9800998ecf8427e
