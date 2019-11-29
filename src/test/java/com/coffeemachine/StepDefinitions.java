@@ -105,4 +105,9 @@ public class StepDefinitions {
     public void settingsShouldBe(DataTable datatable) {
         actionwords.settingsShouldBe(datatable);
     }
+
+    @Then("^a notification about descaling is displayed$")
+    public void aNotificationAboutDescalingIsDisplayed() {
+        actionwords.aNotificationAboutDescalingIsDisplayed();
+    }
 }
